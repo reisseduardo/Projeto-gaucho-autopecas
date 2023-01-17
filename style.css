@@ -1,3 +1,50 @@
-*{
-    background-color: #0b0866
+header {
+    background-color: #0b0866;
+}
+
+header img {
+    width: 100%;
+}
+
+body {
+    text-align: center;
+    display: block;
+    background-color: #aaaaaa;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body nav {
+    position: relative;
+    text-align: center;
+    background-color: #0b0866;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: justify;
+}
+
+p {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer {
+    position: relative;
+    bottom: 0rem;
+    background-color: #0b0866;
+    width: 100%;
+}
+
+footer img {
+    width: 20%;
 }
