@@ -31,9 +31,28 @@ body nav {
 
 li {
     display: inline-block;
-    color: white;
     font-weight: bold;
     padding: 0.5rem;
+}
+
+li a {
+    color: white;
+}
+
+.wapp {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top: 1.3rem;
+    color: green;
+}
+
+.tel {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top: 1.3rem;
+    color: blue;
 }
 
 h2 {
