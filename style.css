@@ -3,13 +3,20 @@ html {
     min-height: 100%;
 }
 
-header {
+ul {
     width: 100%;
     background-color: #0b0866;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul li a {
+    color: #FFFFFF;
 }
 
 header img {
-    width: 50%;
+    width: 20%;
 }
 
 body {
@@ -21,19 +28,35 @@ body {
     min-height: 100%;
 }
 
-body nav {
-    position: relative;
-    text-align: center;
-    background-color: #0b0866;
-    width: 100%;
-    font-size: 1rem;
+.contatos {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-li {
-    display: inline-block;
-    color: white;
-    font-weight: bold;
-    padding: 0.5rem;
+.wapp {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top: 1.3rem;
+    color: green;
+}
+
+.tel {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top: 1.3rem;
+    color: blue;
+}
+
+iframe {
+    margin: auto;
+    width: 75vw;
+    height: 50vh;
 }
 
 h2 {
