@@ -97,6 +97,11 @@ p {
     font-size: 1rem;
 }
 
+#fotoloja {
+    margin: auto;
+    width: 75vw;
+}
+
 footer {
     margin-top: auto;
     background-color: #0b0866;
